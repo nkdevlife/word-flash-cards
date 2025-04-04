@@ -10,6 +10,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import { flashcardItems, menuItems } from "@/constants/menu";
 
 interface SideMenuProps {
   className?: string;
@@ -17,32 +18,6 @@ interface SideMenuProps {
 
 export function SideMenu({ className }: SideMenuProps) {
   const pathname = usePathname();
-
-  const flashcardItems = [
-    {
-      title: "TOEIC 600",
-      href: "/flashcards/toeic-600",
-    },
-    {
-      title: "TOEIC 700",
-      href: "/flashcards/toeic-700",
-    },
-    {
-      title: "TOEIC 800",
-      href: "/flashcards/toeic-800",
-    },
-    {
-      title: "TOEIC 900",
-      href: "/flashcards/toeic-900",
-    },
-  ];
-
-  const menuItems = [
-    {
-      title: "設定",
-      href: "/settings",
-    },
-  ];
 
   return (
     <div className={cn("pb-12", className)}>
