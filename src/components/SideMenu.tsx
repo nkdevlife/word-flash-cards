@@ -24,12 +24,12 @@ export function SideMenu({ className }: SideMenuProps) {
       <div className="space-y-4 py-4">
         <div className="px-3 py-2">
           <h2 className="mb-2 px-4 text-lg font-semibold tracking-tight">
-            メニュー
+            Menu
           </h2>
           <div className="space-y-1">
             <Accordion type="single" collapsible defaultValue="flashcards">
               <AccordionItem value="flashcards">
-                <AccordionTrigger className="px-4">単語カード</AccordionTrigger>
+                <AccordionTrigger className="px-4">Cards</AccordionTrigger>
                 <AccordionContent>
                   <div className="space-y-1 pl-6">
                     {flashcardItems.map((item) => (

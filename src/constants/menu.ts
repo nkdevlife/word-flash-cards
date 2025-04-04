@@ -1,25 +1,25 @@
 export const flashcardItems = [
   {
     title: "TOEIC 600",
-    href: "/flashcards/toeic-600",
+    href: "/cards/toeic-600",
   },
   {
     title: "TOEIC 700",
-    href: "/flashcards/toeic-700",
+    href: "/cards/toeic-700",
   },
   {
     title: "TOEIC 800",
-    href: "/flashcards/toeic-800",
+    href: "/cards/toeic-800",
   },
   {
     title: "TOEIC 900",
-    href: "/flashcards/toeic-900",
+    href: "/cards/toeic-900",
   },
 ] as const;
 
 export const menuItems = [
   {
-    title: "設定",
+    title: "Settings",
     href: "/settings",
   },
 ] as const;
